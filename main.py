@@ -7,7 +7,7 @@ from aiogram.utils.keyboard import ReplyKeyboardBuilder
 from aiogram import Bot, Dispatcher
 import config
 from config import token
-
+import IDK
 bot = Bot(token=config.token)
 
 dp = Dispatcher()
@@ -22,4 +22,6 @@ async def get_start(message: types.Message):
 /recommend <жанр> <год>
 P.S если нужна информация по жанрам и годам введи команду /Info
     """)
+
+
 
